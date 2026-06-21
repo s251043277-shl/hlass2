@@ -1,7 +1,7 @@
 library(tidyverse)
 library(plotly)
 
-data_filtered <- X031.assignment.2 %>% 
+data_filtered <- X031.assignment.2 %>%
   filter(Pressure == 100, Temperature == 303)
 
 machine1_data <- data_filtered %>%

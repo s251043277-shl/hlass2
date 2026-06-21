@@ -109,3 +109,43 @@ The t-test will indicate if there is a statistically significant difference in p
 <iframe data-src='media/plots/machine_part_resistance_boxplot.html' width='100%' height='500px' style='border:none;'></iframe>
 :::
 ::::
+
+----
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 1 vs. Machine 2: Part Resistance
+
+We performed an independent samples t-test to compare the part resistance between Machine 1 and Machine 2 when `Pressure` is 100 and `Temperature` is 303. The results are visualized below using a boxplot.
+
+**T-Test Results:**
+* **t-statistic:** (See R output)
+* **p-value:** (See R output)
+
+The t-test will indicate if there is a statistically significant difference in part resistance between the two machines under these conditions.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/machine_part_resistance_boxplot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+----
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 1 vs. Machine 2: Part Length
+
+We performed an independent samples t-test to compare the part length between Machine 1 and Machine 2 when `Pressure` is 100 and `Temperature` is 303. The results are visualized below using a boxplot.
+
+**T-Test Results:**
+* **t-statistic:** (See R output)
+* **p-value:** (See R output)
+
+The t-test will indicate if there is a statistically significant difference in part length between the two machines under these conditions.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/machine_part_length_boxplot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
